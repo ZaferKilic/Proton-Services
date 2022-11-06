@@ -1,0 +1,32 @@
+from termcolor import colored
+import random,os,time
+os.system('cls' if os.name in ('nt', 'dos') else 'clear') 
+time.sleep(0.03)
+print(colored("                                                                     ███╗   ███╗  ███╗   █████╗  █████╗  █████╗ ","cyan"), colored("   █████╗  █████╗","red"))
+time.sleep(0.03)
+print(colored("                                                                     ████╗ ████║ ████║  ██╔══██╗██╔══██╗██╔══██","cyan"),  colored("   ██╔══██╗██╔══██╗","red"))
+time.sleep(0.03)
+print(colored("                                                                     ██╔████╔██║██╔██║  ██║  ██║██║  ██║██║  ██","cyan"),  colored("   ██║  ╚═╝██║  ╚═╝","red"))
+time.sleep(0.03)
+print(colored("                                                                     ██║╚██╔╝██║╚═╝██║  ██║  ██║██║  ██║██║  ██║","cyan"), colored("  ██║  ██╗██║  ██╗","red"))
+time.sleep(0.03)        
+print(colored("                                                                     ██║ ╚═╝ ██║███████╗╚█████╔╝╚█████╔╝╚█████╔","cyan"),  colored("   ╚█████╔╝╚█████╔╝","red"))
+time.sleep(0.03)
+print(colored("                                                                     ╚═╝     ╚═╝╚══════╝ ╚════╝  ╚════╝  ╚════╝ ","cyan"), colored("   ╚════╝  ╚════╝ ","red"))
+time.sleep(0.03)
+print("")
+time.sleep(8)
+for i in range(400):
+    print(colored("\nYENİ CC SETLERİ MEVCUT💙", "green"))
+    print(colored("-- -- -- -- -- -- -- -- -- -- -- -- -- -- -- --","green"))
+    print(colored("KART NUMARASI: ", "cyan"), random.randint(1000000000000000, 9999999999999999))
+    print(colored("SON KULLANMA TARİHİ: ", "cyan"), random.randint(1, 12), "/", random.randint(21, 30))
+    print(colored("CVV: ", "cyan"), random.randint(100, 999))
+    FLAG =['Türkiye','Amerika Birleşik Devletleri','İngiltere','Brazilya','Azerbaycan','Türkiye']
+    FLAG = random.choice(FLAG)  
+    SERVICE =['Visa','MasterCard','Discover','American Express','JCB','Diners Club','Maestro','UnionPay']
+    SERVICE = random.choice(SERVICE)  
+    print(colored("\nÜlke:","cyan"),colored(FLAG,"green"))
+    print(colored("Servis: "+SERVICE,"red"))
+    print(colored("-- -- -- -- -- -- -- -- -- -- -- -- -- -- -- --","green"))
+    time.sleep(0.1)

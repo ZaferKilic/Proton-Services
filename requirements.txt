@@ -1,0 +1,14 @@
+pygame
+pynput
+smtplib
+threading
+calendar 
+pyautogui 
+email
+requests
+getpass
+mysql.connector
+random
+mss
+ssl
+ctypes
